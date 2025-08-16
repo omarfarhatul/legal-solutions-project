@@ -13,6 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- fontawesome cdn -->
+     <script src="https://kit.fontawesome.com/23a5af47a5.js" crossorigin="anonymous"></script>
+
     <style>
         .poppins-font {
             font-family: "Poppins", sans-serif;
@@ -23,7 +26,7 @@
     <!-- header section -->
     <header class="md:container mx-auto">
         <nav>
-            <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -31,37 +34,27 @@
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        class="menu menu-sm dropdown-content">
+        <li><a>Home<i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a>Services<i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a>Cases<i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a>Blog<i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a>Contact Us<i class="fa-solid fa-angle-right"></i></a></li>
       </ul>
     </div>
     <img src="./images/logo2.png" alt="">
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
+    <ul class="menu menu-horizontal px-1 text-gray-500">
+      <li><a>Home<i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a>Services<i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a>Cases<i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a>Blog<i class="fa-solid fa-angle-right"></i></a></li>
+        <li><a>Contact Us<i class="fa-solid fa-angle-right"></i></a></li>
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn">Button</a>
+    <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
   </div>
 </div>
         </nav>
